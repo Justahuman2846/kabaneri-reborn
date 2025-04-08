@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: url('https://images8.alphacoders.com/739/thumb-1920-739734.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.7);
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #ff4d4d;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #f2f2f2;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ff4d4d;
+  padding: 12px 25px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e03d3d;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 0.9em;
+  color: #bbb;
+}
